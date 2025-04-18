@@ -1,0 +1,8 @@
+- name: LAMP Stack Deployment
+  hosts: localhost
+  become: yes
+  roles: 
+    - php
+    - mysql
+    - apache
+  

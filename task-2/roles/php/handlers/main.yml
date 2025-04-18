@@ -1,0 +1,6 @@
+---
+# handlers file for php
+- name: restart php
+  service:
+    name: php
+    state: restarted
