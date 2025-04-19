@@ -6,10 +6,7 @@
 ## 📋 Table of Contents
 - [Features](#-features)
 - [Quick Start](#-quick-start)
-- [Configuration](#-configuration)
-- [Testing](#-testing)
-- [Scheduling](#-scheduling)
-- [Troubleshooting](#-troubleshooting)
+
 
 ## ✨ Features
 - 🗄️ Automated compressed backups (.tar.gz)
