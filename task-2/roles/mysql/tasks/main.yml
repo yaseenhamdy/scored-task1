@@ -1,6 +1,6 @@
 ---
 # tasks file for mysql
 - name: install mysql
-  yum:
+  apt:
     name: mysql-server
     state: present

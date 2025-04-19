@@ -1,7 +1,9 @@
 ---
 # tasks file for apache
 - name: install apache
-  yum:
-    name: httpd
+  apt:
+    name: apache2
     state: present
-- include_tasks: configure.yaml 
+    update_cache: yes
+- include_tasks: configure.yaml
+

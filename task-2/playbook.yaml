@@ -1,5 +1,5 @@
 - name: LAMP Stack Deployment
-  hosts: localhost
+  hosts: prod
   become: yes
   roles: 
     - php
